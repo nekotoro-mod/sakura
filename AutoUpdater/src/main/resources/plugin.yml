@@ -1,0 +1,12 @@
+name: AutoSpigotUpdater
+version: 1.0
+main: com.example.autospigotupdater.AutoSpigotUpdater
+api-version: 1.13
+commands:
+  update:
+    description: Spigotを最新にアップデートする
+    usage: /update
+    permission: autospigotupdater.use
+permissions:
+  autospigotupdater.use:
+    default: op
